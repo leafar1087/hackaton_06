@@ -1,0 +1,21 @@
+
+
+.AllArticle-Article{
+    display: inline-flex;
+    padding-bottom: 2em;
+}
+
+.AllArticle-Text{
+    float: right;
+    margin-left: -1em;
+    margin-left: 1em;
+}
+
+.AllArticle-H4{
+    color: #0C67F5
+}
+
+.AllArticle-Card{
+    background-color: whitesmoke;
+    width: 200px;
+}
