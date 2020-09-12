@@ -1,0 +1,32 @@
+nav{
+    background-color: whitesmoke;
+    height: 6rem;
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Menu-Items{
+    height: inherit;
+    display: flex;
+     justify-content: flex-end;
+    align-items: center;
+}
+
+.Menu-Item{ 
+    list-style: none;
+    color: #0C67F5;
+    font-weight: bold;
+    
+}
+
+.Menu-Enlace{
+    
+    text-decoration: none;
+    display: inline-block;
+    color: blue;
+    font-size: 1em;
+    padding: 1em 1em 1em;
+}
+

@@ -1,14 +1,85 @@
-#cuerpo{
-    background-color: whitesmoke;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
-.Container-Header{
-    background-image: url(images/banner.png);
-    background-color: cornflowerblue;
+h1{
+    width: 90%;
+    background-color: #04DB6C;
+    align-content: center;
+    color: white;
+}
+
+body{
+    background: #e6e6e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+   width: 90%;
+    max-width: 100%;
+    margin: 20px auto;
+   flex-wrap: wrap;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    h1{
+        width: 60%;
+        background-color: red;
+        align-content: center;
+        color: white;
+    }
+
+    header{
+        width: 60%;
+        margin: 10px;
+        flex-wrap: wrap;
+        /*max-width: 100%;*/
         
-}
+     }
+     
+     nav{
+         background-color: red;
+         height: 350px;
+         width: 60%;
+         /*width: inherit;*/
+         /*justify-content: space-around;*/
+         /*align-items: left; */
+         
+     }
+     
+     ul{
+        width: 100%;
+        height: inherit;
+        justify-content: space-around;
+        flex-direction: column;
+        list-style: none;
+        /*align-content: flex-start;*/
+     }
+     
+     li{ 
+         width: inherit;
+         height: 45px;
+         text-align: center;
+         align-content: flex-start;
+                  
+     }
+     
+     a{
+        padding: 1px, 20px;
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 1.1em;
+         
+     }
 
-#titulo-inicio, #subtitulo-inicio{
-    color:whitesmoke;
-    font-family: Helvetica, sans-serif;
-}
+     header nav a:hover{
+        background: #e63946;
+    }
+ }
