@@ -1,16 +1,18 @@
-nav{
-    background-color: whitesmoke;
-    height: 6rem;
+.Menu, .Menu-Items{
+    height: inherit;
     width: inherit;
+}
+
+.Menu{
+    background-color:whitesmoke;
     justify-content: center;
     align-items: center;
     
 }
 
 .Menu-Items{
-    height: inherit;
     display: flex;
-     justify-content: flex-end;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -25,7 +27,6 @@ nav{
     
     text-decoration: none;
     display: inline-block;
-    color: blue;
     font-size: 1em;
     padding: 1em 1em 1em;
 }
