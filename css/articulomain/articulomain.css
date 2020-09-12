@@ -1,0 +1,74 @@
+.TituloMain-H2{
+    color: #0C67F5;
+    font-size: 22px;
+    margin: 5px 100px 40px 20px;
+}
+
+.ArticuloMain{
+    
+}
+
+.ArticuloMain-H3, .ArticuloMain-P, .ArticuloMain-Card{
+    margin: 5px 100px 40px 20px;
+}
+
+.ArticuloMain-H3{
+    margin-top: 1em;
+    color: #0C67F5;
+    font-size: 30px;
+}
+
+.ArticuloMain-P{
+    width: 45%;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.ArticuloMain-Card{
+    background-color: whitesmoke;
+    width: 45%;
+    height: 60px;
+    flex-direction: column;
+}
+
+.ArticuloMain-Imagen{
+    float: right;
+    width: 500px;
+    height:300px;
+    margin: 5px 100px 40px 20px;
+
+}
+
+.ArticuloMain-Card--H6{
+    color: #0C67F5;
+}
+
+.ArticuloMain-Card--P{
+ font-size: 12px;
+}
+
+.ArticuloTextThird{
+    width: 31%;
+    height:31%;
+    display: inline-block;
+    margin: 15px 15px 10px 5px;
+}
+
+.ArticuloTextThird-Img{
+    align-content: center;
+}
+
+.ArticuloTextThird-H3, .ArticuloTextThird H6{
+    color: #0C67F5;
+}
+
+.ArticuloTextThird-P{
+    font-size: 15px;;
+}
+
+.ArticuloTextThird-Card{
+    background-color: whitesmoke;
+    width: auto;
+    display: inline-flex;
+}
